@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Easified">
+  <defs>
+    <linearGradient id="e" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F07A1A"/>
+      <stop offset="55%" stop-color="#EA5F06"/>
+      <stop offset="100%" stop-color="#A94505"/>
+    </linearGradient>
+    <linearGradient id="star" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD27A"/>
+      <stop offset="100%" stop-color="#EA5F06"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="230" fill="#0E1C45"/>
+  <!-- Spine + bars of E -->
+  <path fill="url(#e)" d="
+    M248 214
+    h548
+    v128
+    H396
+    v86
+    h360
+    v128
+    H396
+    v86
+    h400
+    v128
+    H248
+    Z"/>
+  <!-- Distinction star in the open of the E -->
+  <path fill="url(#star)" transform="translate(742 430) scale(1.05)" d="
+    M0 -72
+    L21 -22
+    L76 -22
+    L32 10
+    L48 62
+    L0 32
+    L-48 62
+    L-32 10
+    L-76 -22
+    L-21 -22
+    Z"/>
+</svg>
