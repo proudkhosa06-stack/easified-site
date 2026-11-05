@@ -157,3 +157,5 @@ h3{font-family:var(--serif);font-weight:700;font-size:1.25rem;line-height:1.25}
 .founder-photo{width:220px;height:220px;object-fit:cover;object-position:50% 8%;border-radius:50%;box-shadow:0 8px 24px rgba(0,0,0,.15)}
 .founder>div{flex:1;min-width:260px}
 .founder-role{font-weight:600;opacity:.8}
+
+.founder-quote{margin:12px 0;padding-left:14px;border-left:3px solid #e8b23a;font-style:italic}
